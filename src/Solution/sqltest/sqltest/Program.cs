@@ -56,7 +56,9 @@ namespace sqltest
             {
                 Console.WriteLine(e.ToString());
             }
-            Console.ReadLine();
+            Console.WriteLine("\nPress any key to exit...\n");
+
+            Console.ReadKey();
         }
     }
 }
