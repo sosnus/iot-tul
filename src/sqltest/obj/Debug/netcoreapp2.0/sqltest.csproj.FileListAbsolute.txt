@@ -1,0 +1,10 @@
+C:\Users\sosnu\Desktop\temp_to_delete\test-tul\sqltest\bin\Debug\netcoreapp2.0\sqltest.deps.json
+C:\Users\sosnu\Desktop\temp_to_delete\test-tul\sqltest\bin\Debug\netcoreapp2.0\sqltest.runtimeconfig.json
+C:\Users\sosnu\Desktop\temp_to_delete\test-tul\sqltest\bin\Debug\netcoreapp2.0\sqltest.runtimeconfig.dev.json
+C:\Users\sosnu\Desktop\temp_to_delete\test-tul\sqltest\bin\Debug\netcoreapp2.0\sqltest.dll
+C:\Users\sosnu\Desktop\temp_to_delete\test-tul\sqltest\bin\Debug\netcoreapp2.0\sqltest.pdb
+C:\Users\sosnu\Desktop\temp_to_delete\test-tul\sqltest\obj\Debug\netcoreapp2.0\sqltest.csproj.CoreCompileInputs.cache
+C:\Users\sosnu\Desktop\temp_to_delete\test-tul\sqltest\obj\Debug\netcoreapp2.0\sqltest.AssemblyInfoInputs.cache
+C:\Users\sosnu\Desktop\temp_to_delete\test-tul\sqltest\obj\Debug\netcoreapp2.0\sqltest.AssemblyInfo.cs
+C:\Users\sosnu\Desktop\temp_to_delete\test-tul\sqltest\obj\Debug\netcoreapp2.0\sqltest.dll
+C:\Users\sosnu\Desktop\temp_to_delete\test-tul\sqltest\obj\Debug\netcoreapp2.0\sqltest.pdb
