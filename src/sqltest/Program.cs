@@ -29,11 +29,11 @@ namespace sqltest
                     odczyt.SensorId = 1;
                     odczyt.Description = "AA";
                     odczyt.Value = 5;
-List<SensorData> kolekcja = new List<SensorData> {odczyt,odczyt};
-string json = JsonConvert.SerializeObject(kolekcja);
-json += JsonConvert.SerializeObject(kolekcja);
-                                Console.WriteLine(kolekcja);
-                                Console.WriteLine(json);
+                    List<SensorData> kolekcja = new List<SensorData> {odczyt,odczyt};
+                    string json = JsonConvert.SerializeObject(kolekcja);
+                    json += JsonConvert.SerializeObject(kolekcja);
+                    Console.WriteLine(kolekcja);
+                    Console.WriteLine(json);
                     Console.WriteLine("=========================================\n");
 
                     connection.Open();       
