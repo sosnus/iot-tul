@@ -22,18 +22,6 @@ namespace sqltest
                 using (SqlConnection connection = new SqlConnection(builder.ConnectionString))
                 {
                     Console.WriteLine("\nQuery data example:");
-
-
-                    SensorData odczyt = new SensorData();
-                    odczyt.ID = 1;
-                    odczyt.SensorId = 1;
-                    odczyt.Description = "AA";
-                    odczyt.Value = 5;
-                    List<SensorData> kolekcja = new List<SensorData> { odczyt, odczyt };
-                    string json = JsonConvert.SerializeObject(kolekcja);
-                    json += JsonConvert.SerializeObject(kolekcja);
-                    Console.WriteLine(kolekcja);
-                    Console.WriteLine(json);
                     Console.WriteLine("=========================================\n");
 
                     connection.Open();
@@ -41,16 +29,27 @@ namespace sqltest
                     sb.Append("SELECT * FROM [dbo].[sensors01]");
                     String sql = sb.ToString();
 
+                    string json = null;
+                    List<SensorData> kolekcja = new List<SensorData>();
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
                         using (SqlDataReader reader = command.ExecuteReader())
                         {
                             while (reader.Read())
                             {
-                                Console.WriteLine("{0} {1} {2} {3}", reader.GetInt32(0), reader.GetInt32(1), reader.GetString(2), reader.GetInt32(3));
+                                SensorData odczyt = new SensorData();
+                                odczyt.ID = reader.GetInt32(0);
+                                odczyt.SensorId = reader.GetInt32(1);
+                                odczyt.Description = reader.GetString(2);
+                                odczyt.Value = reader.GetInt32(3);
+                                kolekcja.Add(odczyt);
                             }
                         }
+
                     }
+                                json = JsonConvert.SerializeObject(kolekcja);
+                    //Console.WriteLine(kolekcja);
+                    Console.WriteLine(json);
                 }
             }
             catch (SqlException e)
