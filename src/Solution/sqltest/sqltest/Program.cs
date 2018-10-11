@@ -2,7 +2,6 @@
 using System.Data.SqlClient;
 using System.Text;
 using Newtonsoft.Json;
-
 using System.Collections.Generic;
 
 namespace sqltest
@@ -21,14 +20,15 @@ namespace sqltest
 
                 using (SqlConnection connection = new SqlConnection(builder.ConnectionString))
                 {
-                    Console.WriteLine("\nQuery data example:");
-                    Console.WriteLine("=========================================\n");
+                    Console.WriteLine("\nSELECT * FROM [dbo].[sensors01] ...");
+                    //Console.WriteLine("=========================================\n");
 
                     connection.Open();
                     StringBuilder sb = new StringBuilder();
                     sb.Append("SELECT * FROM [dbo].[sensors01]");
                     String sql = sb.ToString();
 
+                    Console.WriteLine("\nWrite data to collection...");
                     string json = null;
                     List<SensorData> kolekcja = new List<SensorData>();
                     using (SqlCommand command = new SqlCommand(sql, connection))
@@ -47,8 +47,8 @@ namespace sqltest
                         }
 
                     }
-                                json = JsonConvert.SerializeObject(kolekcja);
-                    //Console.WriteLine(kolekcja);
+                    Console.WriteLine("\nRewrite collection to json string...\n");
+                    json = JsonConvert.SerializeObject(kolekcja);
                     Console.WriteLine(json);
                 }
             }
