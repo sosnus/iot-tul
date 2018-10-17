@@ -8,6 +8,8 @@ namespace sqltest
 {
     class Program
     {
+
+        const string sqlQuery = "SELECT * FROM [dbo].[measurementsLog]";
         static void Main(string[] args)
         {
             try
@@ -20,28 +22,27 @@ namespace sqltest
 
                 using (SqlConnection connection = new SqlConnection(builder.ConnectionString))
                 {
-                    Console.WriteLine("\nSELECT * FROM [dbo].[sensors01] ...");
-                    //Console.WriteLine("=========================================\n");
+                    Console.WriteLine("\nExecute {0} ...", sqlQuery);
 
                     connection.Open();
                     StringBuilder sb = new StringBuilder();
-                    sb.Append("SELECT * FROM [dbo].[sensors01]");
+                    sb.Append(sqlQuery);
                     String sql = sb.ToString();
 
                     Console.WriteLine("\nWrite data to collection...");
                     string json = null;
-                    List<SensorData> kolekcja = new List<SensorData>();
+                    List<measurement> kolekcja = new List<measurement>();
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
                         using (SqlDataReader reader = command.ExecuteReader())
                         {
                             while (reader.Read())
                             {
-                                SensorData odczyt = new SensorData();
-                                odczyt.ID = reader.GetInt32(0);
-                                odczyt.SensorId = reader.GetInt32(1);
-                                odczyt.Description = reader.GetString(2);
-                                odczyt.Value = reader.GetInt32(3);
+                                measurement odczyt = new measurement();
+                                odczyt.idMeas = reader.GetInt32(0);
+                                odczyt.idSensor = reader.GetInt32(1);
+                                odczyt.dateMeas = reader.GetDateTime(2);
+                                odczyt.valueMeas = reader.GetFloat(3);
                                 kolekcja.Add(odczyt);
                             }
                         }

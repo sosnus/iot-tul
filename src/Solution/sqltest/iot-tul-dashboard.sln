@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sqltest", "sqltest\sqltest.csproj", "{962A3478-49AE-41EF-B968-ED1FFAAF903E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlToJsonFunc", "SqlToJsonFunc\SqlToJsonFunc.csproj", "{D63B851B-BA5C-446D-A83A-6D4FE9B5EE0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sqltest", "sqltest\sqltest.csproj", "{962A3478-49AE-41EF-B968-ED1FFAAF903E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{962A3478-49AE-41EF-B968-ED1FFAAF903E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{962A3478-49AE-41EF-B968-ED1FFAAF903E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{962A3478-49AE-41EF-B968-ED1FFAAF903E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D63B851B-BA5C-446D-A83A-6D4FE9B5EE0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D63B851B-BA5C-446D-A83A-6D4FE9B5EE0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D63B851B-BA5C-446D-A83A-6D4FE9B5EE0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D63B851B-BA5C-446D-A83A-6D4FE9B5EE0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
