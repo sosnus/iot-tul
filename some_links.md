@@ -11,3 +11,6 @@ https://docs.google.com/document/d/1KZ8vmaZ2PxV-tcF_Ni_fP6pOzd9hQcIWNiMHTFpXjIE/
 4. tworzenie kolekcji na podstawie zapytania sql
 5. przetworzenie kolejkci na string json
 6. wysłanie jsona jako http odpowiedz
+
+poczytać o entity framework
+https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/intro?view=aspnetcore-2.1&tabs=visual-studio
