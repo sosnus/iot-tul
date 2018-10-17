@@ -5,4 +5,15 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="EntityFramework.SqlServerCompact" Version="6.2.0" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.6" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IotShared\IotShared.csproj" />
+  </ItemGroup>
+
 </Project>

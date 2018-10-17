@@ -1,4 +1,9 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
+using System.Data.SqlClient;
+using System.Collections.Generic;
+using System.Text;
+using IotShared;
 
 namespace iot_tul_dashboard
 {
@@ -27,14 +32,14 @@ namespace iot_tul_dashboard
 
                     Console.WriteLine("\nWrite data to collection...");
                     string json = null;
-                    List<measurement> kolekcja = new List<measurement>();
+                    List<Measurement> kolekcja = new List<Measurement>();
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
                         using (SqlDataReader reader = command.ExecuteReader())
                         {
                             while (reader.Read())
                             {
-                                measurement odczyt = new measurement();
+                                Measurement odczyt = new Measurement();
                                 odczyt.idMeas = reader.GetInt32(0);
                                 odczyt.idSensor = reader.GetInt32(1);
                                 odczyt.dateMeas = reader.GetDateTime(2);
