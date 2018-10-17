@@ -14,3 +14,6 @@ https://docs.google.com/document/d/1KZ8vmaZ2PxV-tcF_Ni_fP6pOzd9hQcIWNiMHTFpXjIE/
 
 poczytać o entity framework
 https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/intro?view=aspnetcore-2.1&tabs=visual-studio
+
+
+raz na X wykonaj procedurę Y (sql scheduler) przenieś dane starsze niż Z dni do tabeli archiwum
