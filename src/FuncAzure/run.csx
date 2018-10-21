@@ -5,6 +5,12 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Primitives;
 using Newtonsoft.Json;
 
+	public static float getNumber(int a, int b, Random _rnd)
+	{
+		return (float)_rnd.Next(a, b)+(float)((float)_rnd.Next(0,99)/100);
+	}
+
+
 public static async Task<IActionResult> Run(HttpRequest req, ILogger log)
 {
     log.LogInformation("C# func to parse http and run select query");
@@ -12,7 +18,9 @@ public static async Task<IActionResult> Run(HttpRequest req, ILogger log)
 
 //idMeas: auto
 float _temp1,_press1 ;
-
+		// Random rnd = new Random();
+        // 		Console.WriteLine(" temp=    "+getNumber(15,25,rnd));
+		// Console.WriteLine("press=    "+getNumber(980,1030,rnd));
     int _idSensor = 2; //cionst req.Query["temp1"];
 if(float.TryParse(req.Query["temp1"], out _temp1)==false)_temp1 = 11.1;
 if(float.TryParse(req.Query["press1"], out _press1)==false)_press1 = 1111;
