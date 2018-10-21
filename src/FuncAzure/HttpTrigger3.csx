@@ -9,9 +9,10 @@ using Newtonsoft.Json;
 public static async Task<IActionResult> Run(HttpRequest req, ILogger log)
 {
     log.LogInformation(">>>>> C# func to parse http and run select query");
-    log.LogInformation(">>>>> last edited: 20:44 21.10.2018");
+    log.LogInformation(">>>>> last edited: 23:18 21.10.2018");
 
 		Random rnd = new Random();
+        //prepare
 //idMeas: auto
 float _temp1,_press1 ;
 
@@ -34,6 +35,10 @@ else if(_press1 == -1){
     }
     //date: now()
 //string name = "aaa";
+
+//sql
+
+
     return _temp1 != -2
         ? (ActionResult)new OkObjectResult($"Hello, Temp={_temp1}, Press={_press1}")
         : new BadRequestObjectResult("Please pass a name on the query string or in the request body");
@@ -44,3 +49,5 @@ else if(_press1 == -1){
 	{
 		return (float)_rnd.Next(a, b)+(float)((float)_rnd.Next(0,99)/100);
 	}
+
+
