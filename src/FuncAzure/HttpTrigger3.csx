@@ -5,10 +5,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Primitives;
 using Newtonsoft.Json;
 
-	public static float getNumber(int a, int b, Random _rnd)
-	{
-		return (float)_rnd.Next(a, b)+(float)((float)_rnd.Next(0,99)/100);
-	}
 
 public static async Task<IActionResult> Run(HttpRequest req, ILogger log)
 {
@@ -37,8 +33,14 @@ else if(_press1 == -1){
     log.LogInformation($"temp1 rand {_press1}");
     }
     //date: now()
-string name = "aaa";
+//string name = "aaa";
     return _temp1 != -2
-        ? (ActionResult)new OkObjectResult($"Hello, {name}, Temp={_temp1}, Press={_press1}")
+        ? (ActionResult)new OkObjectResult($"Hello, Temp={_temp1}, Press={_press1}")
         : new BadRequestObjectResult("Please pass a name on the query string or in the request body");
 }
+
+
+	public static float getNumber(int a, int b, Random _rnd)
+	{
+		return (float)_rnd.Next(a, b)+(float)((float)_rnd.Next(0,99)/100);
+	}
