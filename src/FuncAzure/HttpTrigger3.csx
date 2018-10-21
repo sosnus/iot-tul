@@ -14,7 +14,7 @@ using System.Configuration;
 public static async Task<IActionResult> Run(HttpRequest req, ILogger log)
 {
     log.LogInformation(">>>>> C# func to parse http and run select query");
-    log.LogInformation(">>>>> last edited: 23:19 21.10.2018");
+    log.LogInformation(">>>>> last edited: 00:06 22.10.2018");
 
 		Random rnd = new Random();
         //prepare
@@ -75,4 +75,6 @@ else if(_press1 == -1){
 		return (float)_rnd.Next(a, b)+(float)((float)_rnd.Next(0,99)/100);
 	}
 
+
+// https://iot-tul-function.azurewebsites.net/api/HttpTrigger3?code=a6UqER8tFZ8fMXILqe2ksQHI7efFqKReYjVK4cQcxNCToRZI35xFpg==&temp1=-1&press1=-1
 
