@@ -22,14 +22,16 @@ float _temp1,_press1 ;
         // 		Console.WriteLine(" temp=    "+getNumber(15,25,rnd));
 		// Console.WriteLine("press=    "+getNumber(980,1030,rnd));
     int _idSensor = 2; //cionst req.Query["temp1"];
-if(float.TryParse(req.Query["temp1"], out _temp1)==false)_temp1 = 11.1;
-if(float.TryParse(req.Query["press1"], out _press1)==false)_press1 = 1111;
+if(float.TryParse(req.Query["temp1"], out _temp1)==false){_temp1 = 11.1;log.LogInformation("temp1 const 11.1");}
+if(float.TryParse(req.Query["press1"], out _press1)==false){_press1 = 1111;log.LogInformation("press1 const 1111");}
     //date: now()
 
 
 
 string query = $"INSERT INTO dbo.measurementsLogLatest11 (idSensor, dateMeas,valueMeas, sensorType)"+
-$"VALUES ({_idSensor},GETDATE(),ROUND(RAND()*(25-10+1)+10,2), 'temp1');";
+$"VALUES ({_idSensor},GETDATE(),{_temp1}, 'temp1');"+
+$"INSERT INTO dbo.measurementsLogLatest11 (idSensor, dateMeas,valueMeas, sensorType)"+
+$"VALUES ({_idSensor},GETDATE(),{_press1}, 'press1');"
 
     log.LogInformation(query);
 
