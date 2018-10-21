@@ -7,15 +7,34 @@ using Newtonsoft.Json;
 
 public static async Task<IActionResult> Run(HttpRequest req, ILogger log)
 {
-    log.LogInformation("C# HTTP trigger function processed a request.");
+    log.LogInformation("C# func to parse http and run select query");
+    log.LogInformation("last edited: 20:44 21.10.2018");
 
-    string name = req.Query["name"];
+//idMeas: auto
+float _temp1,_press1 ;
 
-    string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
-    dynamic data = JsonConvert.DeserializeObject(requestBody);
-    name = name ?? data?.name;
+    int _idSensor = 2; //cionst req.Query["temp1"];
+if(float.TryParse(req.Query["temp1"], out _temp1)==false)_temp1 = 11.1;
+if(float.TryParse(req.Query["press1"], out _press1)==false)_press1 = 1111;
+    //date: now()
+
+
+
+string query = $"INSERT INTO dbo.measurementsLogLatest11 (idSensor, dateMeas,valueMeas, sensorType)"+
+$"VALUES ({_idSensor},GETDATE(),ROUND(RAND()*(25-10+1)+10,2), 'temp1');";
+
+    log.LogInformation(query);
+
+   // string _temp1 = req.Query["temp1"];
+  //  string _press1 = req.Query["press1"];
+    int _idSensor = 2; //cionst req.Query["temp1"];
+  //  string _temp1 = req.Query["temp1"];
+
+
+
+
 
     return name != null
         ? (ActionResult)new OkObjectResult($"Hello, {name}")
-        : new BadRequestObjectResult("Please pass a name on the query string or in the request body");
+        : new BadRequestObjectResult("Error, maybe bad parse");
 }
