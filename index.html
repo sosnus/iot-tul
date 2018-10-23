@@ -20,6 +20,7 @@
 				  <th>idSensor</th>
 				  <th>dateMeas</th>
 				  <th>valueMeas</th>
+				  <th>sensorType</th>
 				</tr>
 		</table>
 		</div>
@@ -37,15 +38,14 @@
 			$.support.cors = true;
 			$.ajax({ 
 				url:"https://iot-tul-app-sqltojson.azurewebsites.net/",
-			
-    crossDomain: true,
+				crossDomain: true,
 				dataType:"json",
 				success:function(data){
 					console.log("Downloading and parsing json..."); 
 					$(data).each(function(index,value){
 						var record="<tr><td>"+value.idMeas+"</td><td>"+
 						value.idSensor+"</td><td>"+value.dateMeas+
-						"</td><td>"+value.valueMeas+"</td></tr>";
+						"</td><td>"+value.valueMeas+"</td><td>"+value.sensorType+"</td></tr>";
 						$("table").append(record);
 					});		
 				}
