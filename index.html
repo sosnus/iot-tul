@@ -33,12 +33,11 @@
 	<script>
 		$(document).ready(function(){
 			
-			console.log("Hello world!"); 
-			$.ajax({
-				console.log("download json..."); 
+			$.ajax({ 
 				url:"http://iot-tul-app-sqltojson.azurewebsites.net/",
 				dataType:"json",
 				success:function(data){
+					console.log("Downloading and parsing json..."); 
 					$(data).each(function(index,value){
 						var record="<tr><td>"+value.idMeas+"</td><td>"+
 						value.idSensor+"</td><td>"+value.dateMeas+
