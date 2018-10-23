@@ -37,6 +37,8 @@
 			
 			$.ajax({ 
 				url:"https://iot-tul-app-sqltojson.azurewebsites.net/",
+			
+    crossDomain: true,
 				dataType:"json",
 				success:function(data){
 					console.log("Downloading and parsing json..."); 
