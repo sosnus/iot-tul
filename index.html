@@ -32,8 +32,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	<script>
 		$(document).ready(function(){
+			
+			console.log("Hello world!"); 
 			$.ajax({
-				url:"hhttp://iot-tul-app-sqltojson.azurewebsites.net/",
+				console.log("download json..."); 
+				url:"http://iot-tul-app-sqltojson.azurewebsites.net/",
 				dataType:"json",
 				success:function(data){
 					$(data).each(function(index,value){
@@ -44,6 +47,7 @@
 					});		
 				}
 			});
+		console.log("Done!"); 
 		});
 	</script>
   </body>
