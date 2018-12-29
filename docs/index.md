@@ -4,7 +4,19 @@
 ## About project
 Our project will be used to...
 
+
 ## Authors
+
+
+* PODZIAL DOKUMENTACJI
+* About project (+authors)
+* Featureas and description dashboard portal
+* About LoraStore (C# app)
+* About websockets portal (how it works and how to use)
+* How add Your sensor to this project?
+
+
+
 ### Jan Kowalski
 * Developer
 * 111111
