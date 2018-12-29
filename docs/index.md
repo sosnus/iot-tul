@@ -1,3 +1,24 @@
+# ttn-tul-dashboard
+# Welcome to ttn-tul-dashboard documentation
+
+## About project
+Our project will be used to...
+
+## Authors
+### Jan Kowalski
+* Developer
+* 111111
+* homepage
+
+### Jan1 Kowalski1
+* Designer
+* 222222
+* homepage
+## How to use python scripts to add new records to database
+
+## how add new sensor to db?
+
+
 # Welcome to MkDocs
 
 For full documentation visit [mkdocs.org](https://mkdocs.org).
