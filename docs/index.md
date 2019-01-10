@@ -10,14 +10,24 @@ Our project can help students prepare their first Internet of Things solution
 
 ### Whole project
 
-### LoRa Store
+### IoT Dashboard
+* Volodymyr Kovalyk
+* Maciej Leszczyński
+* Mateusz Królewiak
+* Damian Piotrowski
 
-### Node specialists
+### Node developers
+* Jakub Walkiewicz
+* Jakub Stańczyk
+* Michał Rejmonczyk
 
 ### Gateways administrators
+* Grzegorz Imioła
+* Rafał Baczyński
+* Michał Gronkiewicz
 
 ### Node Shild tt-tul-node-v1
-
+* Rafał Dolny
 
 
 
