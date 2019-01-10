@@ -1,25 +1,11 @@
-# Project <Name>
-## Whole solution (frontend, backend, firmware, documentation, other information)
+# ttn-tul-dashboard
+# Welcome to ttn-tul-dashboard documentation
 
 ## About project
-Our project can help students prepare their first Internet of Things solution
-
+Our project will be used to...
 
 
 ## Authors
-
-### Whole project
-
-### LoRa Store
-
-### Node specialists
-
-### Gateways administrators
-
-### Node Shild tt-tul-node-v1
-
-
-
 
 
 * PODZIAL DOKUMENTACJI
