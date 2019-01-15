@@ -17,15 +17,31 @@ Our project will be used to...
 
 
 
-### Jan Kowalski
-* Developer
-* 111111
-* homepage
+### Staszek Puławski
+* 194576
+* Lider
+* sosnus
 
-### Jan1 Kowalski1
-* Designer
-* 222222
-* homepage
+### Maciej Leszczński
+* 209269
+* Backend
+* Leherguargin
+
+### Mateusz Królewiak
+* 209376
+* Backend
+* Matrixz
+
+### Volodymyr Kovalyk
+* 211646
+* Frontend
+* KovalykVolodymyr
+
+### Damian Piotrowski
+* 209430
+* Frontend
+* veraxys
+
 ## How to use python scripts to add new records to database
 
 ## how add new sensor to db?
