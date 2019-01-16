@@ -6,12 +6,12 @@ Our project can help students prepare their first Internet of Things solution
 
 
 
+
 ## Whole solution (frontend, backend, firmware, documentation, other information)
-
-
-##[LoRaStore Traffic Monitor](https://lora-websocket.azurewebsites.net/)
-##[LoRaStore Dashboard](https://sosnus.github.io/iot-tul/Charts.html)
-##[Node instructions (for pcb ttn-tul-node-v1)](./Node/manual.md)
+## Important elements of solution:
+[LoRaStore Traffic Monitor](https://lora-websocket.azurewebsites.net/)
+[LoRaStore Dashboard](https://sosnus.github.io/iot-tul/Charts.html)
+[Node instructions (for pcb ttn-tul-node-v1)](./Node/manual.md)
         <!-- ## Node instructions
         ## Dashboard
         ## Traffic Monitor
