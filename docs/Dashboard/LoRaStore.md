@@ -1,4 +1,4 @@
-# LoRaStore <Name>
+# LoRaStore Backend <Name>
 
 # Database schematic
 ![alt text][5]
@@ -59,3 +59,16 @@ Test: [Get list of measurements from SensorID=36](https://lorastore2018120610145
 #### Sensors editor
 ![alt text][3]
 [3]: https://raw.githubusercontent.com/sosnus/iot-tul-dashboard/master/docs/img/admin/3.PNG "Sensors editor"
+
+# Deploy LoRaStore at Your server
+You can deploy LoRaStore solution and database at Your server (hosted on azure (or other cloud) or at home). <br>
+For this, You need: <br>
+LoraStore Solution: [LoRaStore Repositorium](https://github.com/sosnus/LoRaStore)  <br>
+Instruction: [Host and deploy ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/?view=aspnetcore-2.2)   <br>
+
+
+# Deploy Dashboard at Your server
+You can deploy LoRaStore solution and database at Your server (hosted on azure (or other cloud) or at home). <br>
+For this, You need: <br>
+Dashboard Repositorium: [LoRaStore Repositorium](https://github.com/sosnus/iot-tul)  <br>
+Instruction: [How to deploy Your page to GitHub Pages](https://pages.github.com/)   <br>

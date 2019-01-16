@@ -1,4 +1,4 @@
-# Description <Name>
+# LoRaStore Dashboard <Name>
 # API
 ## Application shows tables and charts of measurements taken from the sensors.
 ## Main Page
