@@ -1,11 +1,10 @@
-# ttn-tul-dashboard
-# Welcome to ttn-tul-dashboard documentation
+# TEMP <Name>
+## Whole solution (frontend, backend, firmware, documentation, other information)
 
 ## About project
-Our project will be used to...
+Our project can help students prepare their first Internet of Things solution
 
 
-## Authors
 
 
 * PODZIAL DOKUMENTACJI
@@ -14,21 +13,6 @@ Our project will be used to...
 * About LoraStore (C# app)
 * About websockets portal (how it works and how to use)
 * How add Your sensor to this project?
-
-
-
-### Jan Kowalski
-* Developer
-* 111111
-* homepage
-
-### Jan1 Kowalski1
-* Designer
-* 222222
-* homepage
-## How to use python scripts to add new records to database
-
-## how add new sensor to db?
 
 
 # Welcome to MkDocs

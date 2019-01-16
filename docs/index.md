@@ -1,38 +1,15 @@
-﻿# Project <Name>
+﻿Home
 ## Whole solution (frontend, backend, firmware, documentation, other information)
 
 ## About project
 Our project can help students prepare their first Internet of Things solution
 
 
+# TTN-TUL  project
 
-## Authors 'iot-tul-dashboard'
-### Stanisław Puławski
-* 194576
-* Lider
-* sosnus
 
-### Maciej Leszczński
-* 209269
-* Backend
-* Leherguargin
 
-### Mateusz Królewiak
-* 209376
-* Backend
-* Matrixz
 
-### Volodymyr Kovalyk
-* 211646
-* Frontend
-* KovalykVolodymyr
-
-### Damian Piotrowski
-* 209430
-* Frontend
-* veraxys
-
-### Whole TTN  project
 
 ### IoT Dashboard
 * Volodymyr Kovalyk
@@ -50,7 +27,7 @@ Our project can help students prepare their first Internet of Things solution
 * Rafał Baczyński
 * Michał Gronkiewicz
 
-### Node Shild tt-tul-node-v1
+### Node Shild tt-tul-node-v1 designer
 * Rafał Dolny
 
 
