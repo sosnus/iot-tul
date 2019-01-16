@@ -1,7 +1,12 @@
-# LoRaStore
-# Welcome to ttn-tul-dashboard deploy instructions
+# LoRaStore <Name>
 
-## Prepare blank webapp
+## Database schematic
+
+## API
+
+### Post measurement record to DB
+
+### Get list of each records for one sensor
 
 
-## Upload project
+## Sensors management (only for Application administrator)

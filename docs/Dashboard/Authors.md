@@ -1,4 +1,5 @@
-Dashboard
+# Authors <Name>
+
 
 ## Authors 'iot-tul-dashboard'
 ### Stanisław Puławski `sosnus`
