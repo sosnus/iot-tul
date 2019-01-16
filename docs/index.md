@@ -5,6 +5,7 @@
 TODO
 
 ## Important elements of solution:
+####[DOCUMENTATION](https://iot-tul-dashboard.readthedocs.io/en/latest/)
 ####[LoRaStore Traffic Monitor](https://lora-websocket.azurewebsites.net/)
 ####[LoRaStore Dashboard](https://sosnus.github.io/iot-tul/Charts.html)
 ####[Node instructions](./Node/manual.md)  (for pcb ttn-tul-node-v1)
