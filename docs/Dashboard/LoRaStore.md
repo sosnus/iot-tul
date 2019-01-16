@@ -1,7 +1,8 @@
 # LoRaStore <Name>
 
 # Database schematic
-
+![alt text][5]
+[5]: https://raw.githubusercontent.com/sosnus/iot-tul-dashboard/master/docs/img/admin/5.PNG "Database schematic"
 # API
 
 ## Add measurement record to DB
