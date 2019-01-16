@@ -4,7 +4,7 @@
 ## About project
 TODO
 
-## Important elements of solution:
+## Important elements of solution
 ####[DOCUMENTATION](https://iot-tul-dashboard.readthedocs.io/en/latest/)
 ####[LoRaStore Traffic Monitor](https://lora-websocket.azurewebsites.net/)
 ####[LoRaStore Dashboard](https://sosnus.github.io/iot-tul/Charts.html)
@@ -38,5 +38,5 @@ TODO
 ### Graphic designer
 * Natalia Walczak
 
-### Node Shild tt-tul-node-v1 designer
+### Node Shield tt-tul-node-v1 designer
 * Rafał Dolny
