@@ -23,18 +23,18 @@ Test: [Get list of measurements from SensorID=36](https://lorastore2018120610145
 
 ### an example of an answer to the query
 ![alt text][4]
-[4]: https://raw.githubusercontent.com/sosnus/iot-tul-dashboard/master/docs/img/admin/4.png "an example of an answer to the query"
+[4]: https://raw.githubusercontent.com/sosnus/iot-tul-dashboard/master/docs/img/admin/4.PNG "an example of an answer to the query"
 
 # Sensors management (only for application administrator)
 
 ### Login
 ![alt text][1]
-[1]: https://raw.githubusercontent.com/sosnus/iot-tul-dashboard/master/docs/img/admin/1.png "Login"
+[1]: https://raw.githubusercontent.com/sosnus/iot-tul-dashboard/master/docs/img/admin/1.PNG "Login"
 
 ### Sensors management
 ![alt text][2]
-[2]: https://raw.githubusercontent.com/sosnus/iot-tul-dashboard/master/docs/img/admin/2.png "Sensors management"
+[2]: https://raw.githubusercontent.com/sosnus/iot-tul-dashboard/master/docs/img/admin/2.PNG "Sensors management"
 
 ### Sensors editor
 ![alt text][3]
-[3]: https://raw.githubusercontent.com/sosnus/iot-tul-dashboard/master/docs/img/admin/3.png "Sensors editor"
+[3]: https://raw.githubusercontent.com/sosnus/iot-tul-dashboard/master/docs/img/admin/3.PNG "Sensors editor"
