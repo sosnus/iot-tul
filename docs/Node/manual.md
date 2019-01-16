@@ -1,4 +1,5 @@
-# ttn-tul-node-v1 manual <Name>
+# manual <Name>
+## ttn-tul-node-v1 manual
 
 ## Arduino configuration
 ### Download Arduino IDE

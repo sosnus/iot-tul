@@ -1,5 +1,6 @@
 ﻿# TTN-TUL <Name>
-
+![alt text][3]
+[3]: https://raw.githubusercontent.com/sosnus/iot-tul-dashboard/master/docs/img/logo-ttn-tul.png "3d render"
 ## About project
 Our project can help students prepare their first Internet of Things solution
 
@@ -7,8 +8,19 @@ Our project can help students prepare their first Internet of Things solution
 
 ## Whole solution (frontend, backend, firmware, documentation, other information)
 
-##
 
+##[Traffic Monitor](https://lora-websocket.azurewebsites.net/)
+##[Dashboard](https://sosnus.github.io/iot-tul/Charts.html)
+##[Node instructions](./Node/manual.md)
+<!-- ## Node instructions
+## Dashboard
+## Traffic Monitor
+Lorem ipsum dolor sit amet. -->
+
+<!-- [Click me](http://www.google.com){: .btn}
+<button name="button">Click me</button> -->
+<!-- <button name="button" onclick="https://sosnus.github.io/iot-tul/Charts.html">Go to Dashboard</button>
+<button name="button" onclick="http://www.google.com">Click me</button> -->
 ##Authors
 
 ### IoT Dashboard
