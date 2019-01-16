@@ -7,8 +7,16 @@ Our project can help students prepare their first Internet of Things solution
 
 
 ## Authors
+### Staszek Puławski
+* 194576
+* Lider
+* sosnus
 
 ### Whole project
+### Maciej Leszczński
+* 209269
+* Backend
+* Leherguargin
 
 ### IoT Dashboard
 * Volodymyr Kovalyk
@@ -38,18 +46,21 @@ Our project can help students prepare their first Internet of Things solution
 * About LoraStore (C# app)
 * About websockets portal (how it works and how to use)
 * How add Your sensor to this project?
+### Mateusz Królewiak
+* 209376
+* Backend
+* Matrixz
 
+### Volodymyr Kovalyk
+* 211646
+* Frontend
+* KovalykVolodymyr
 
+### Damian Piotrowski
+* 209430
+* Frontend
+* veraxys
 
-### Jan Kowalski
-* Developer
-* 111111
-* homepage
-
-### Jan1 Kowalski1
-* Designer
-* 222222
-* homepage
 ## How to use python scripts to add new records to database
 
 ## how add new sensor to db?
