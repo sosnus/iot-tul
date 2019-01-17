@@ -11,4 +11,4 @@
         15:00 - 17:30 2nd part of hackathon
         17:30 - 18:30 Presentation
 
-If you have any question, please write email to: stanislaw.pulawski[at]studentpartnert.com 
+If you have any question, please write email to: stanislaw.pulawski[at]studentpartnert.com
