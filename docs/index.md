@@ -5,9 +5,9 @@
 TODO
 
 ## Important elements of solution
-####[DOCUMENTATION](https://iot-tul-dashboard.readthedocs.io/en/latest/)
-####[LoRaStore Traffic Monitor](https://lora-websocket.azurewebsites.net/)
-####[LoRaStore Dashboard](https://sosnus.github.io/iot-tul/Charts.html)
+####[DOCUMENTATION](https://ttn-tul.readthedocs.io/en/latest/) [Github](https://github.com/sosnus/ttn-tul) 
+####[LoRaStore Traffic Monitor](https://lora-websocket.azurewebsites.net/) [Github](https://lora-websocket.azurewebsites.net/)
+####[LoRaStore Dashboard](https://sosnus.github.io/iot-tul/Charts.html) [Github](https://github.com/sosnus/iot-tul)
 ####[Node instructions](./Node/manual.md)  (for Arduino shield ttn-tul-node-v1)
 
 
