@@ -9,7 +9,7 @@
 
 # Important elements of solution
 
-* #### [DOCUMENTATION](https://ttn-tul.readthedocs.io/en/latest/) [Github](https://github.com/sosnus/ttn-tul) 
+* #### [DOCUMENTATION](https://ttn-tul.readthedocs.io/en/latest/) [  Github](https://github.com/sosnus/ttn-tul) 
 * #### [LoRaStore Dashboard](https://sosnus.github.io/iot-tul/Charts.html) [Github](https://github.com/sosnus/iot-tul)
 
 # Authors
