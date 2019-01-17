@@ -1,4 +1,4 @@
-# Hackathon main page <Name>
+# Hackathon_12.01.2019 <Name>
 
 ## Basic information about Hackathon
 
