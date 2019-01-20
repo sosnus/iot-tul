@@ -5,7 +5,7 @@
 
 # About project
 
-**TTN-TUL** jest inicjatywą studentów PŁ (TUL) mającą na celu popularyzację IoT, technologii LoRa oraz infrastruktury TTN. W ramach naszej działalności powstaje wiele projektów składowych skupiających się na poszczególnych częściach rozwązań IoT, poczawszy od projektowania modułów elektronicznych, poprzez rozwijanie i wdrazanie aplikacji webowych do przetwarzania i prezentacji danych aż po rozwój łódziej infrastruktury IoT
+**TTN-TUL** is an initiative of students from Technical University of Lodz (TUL) aimed at popularsing Internet of Things (IoT), LoRa and TheThingsNetwork (TTN) infrastructure. As part of our activity developed are many component projects focused on individual parts of IoT solutions, starting with design of electronic modules, through developing and implementing web applications used for processing and presentation of the data ending with development of IoT infrastructure in Łódź.
 
 # Important elements of solution
 
