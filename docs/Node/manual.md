@@ -57,14 +57,19 @@ Project "arduino ttn" contains three files:
 
 You can find "add new tab" on the drop-down list like on the picture.
 
+![alt text](https://github.com/jakuw/ttn-tul-1/blob/master/docs/Node/list_new_tab.png "Logo Title Text 1")
 
 ## Replace following network data in "send_functions":
  		i. NWKSKEY
 		ii. APPSKEY
 		iii. DEVADDR
+Take data from https://console.thethingsnetwork.org/applications/ **YOUR NAME OF APPLICATION** /devices/ **YOUR DEVICE**		
+		
 ## Replace following sensor data in "send_functions":
   		i. SensorId
  		ii. SensorPassword
+This data you should get from the administrator.		
+		
 ## Upload project
 ## Check data traffic in data tab on https://console.thethingsnetwork.org/applications website.
 ### Add your own part of code
