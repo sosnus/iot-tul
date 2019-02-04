@@ -25,28 +25,39 @@ Go to Sketch/Include Library\Manage Libraries... and search for "LMIC-Arduino". 
 Ask administrator for them.
 ## Change Activation Method to ABP
 
-Example setting of the device shoud be as on the picture.
+Example of settings of the device is presented the picture.
 
 ![alt text](https://github.com/jakuw/ttn-tul-1/blob/master/docs/Node/device_settings.png "Logo Title Text 1")
 
 ## Add decoder function
 
-Go to the website: https://console.thethingsnetwork.org/applications/ YOUR NAME OF APPLICATION /payload-formats 
+Decoder function converts array of asci signs to json format.
+
+Go to the website: https://console.thethingsnetwork.org/applications/ **YOUR NAME OF APPLICATION** /payload-formats 
 
 Decoder function is available on our the github repository: https://github.com/sosnus/ttn-tul-old/tree/master/src/ttn-code
 
-## Add HTTP integration here https://console.thethingsnetwork.org/applications/ YOUR NAME OF APPLICATION /integrations
-ccess Key: default key
-URL: https://ttn-parser-cs.azurewebsites.net/api/ttn-11-01-2019?code=A4HPfv9KqjDE2StqdZPc01j0eaZ0hJhDSqEy6QpTJyBYHy3jLCGyhg==
-Method: POST
-## Arduino + LoRa
+## Add HTTP integration
+
+
+Go to the: https://console.thethingsnetwork.org/applications/ **YOUR NAME OF APPLICATION** /integrations
+
+Set only the following parameters:
+1. Access Key: default key
+1. URL: https://ttn-parser-cs.azurewebsites.net/api/ttn-11-01-2019?code=A4HPfv9KqjDE2StqdZPc01j0eaZ0hJhDSqEy6QpTJyBYHy3jLCGyhg==
+1. Method: POST
+Anything else left default.
+
 ### Check board
-## Connect arduino uno to RFM95W module, potentiometer (A1 pin) and LCD (SDA,SCL).
 ## Download our example from https://github.com/jakuw/ttn-tul/tree/master/src/node/arduino_ttn.
 Project "arduino ttn" contains three files:
- i. arduino_ttn - code responsible for connection with RFM95W module,
- ii. my_functions - here you place your part of code,
- iii. send_functions - functions, which convert data and create appropriate message.
+1. arduino_ttn - code responsible for connection with RFM95W module,
+1. my_functions - here you place your part of code,
+1. send_functions - functions, which convert data and create appropriate message.
+
+You can find "add new tab" on the drop-down list like on the picture.
+
+
 ## Replace following network data in "send_functions":
  		i. NWKSKEY
 		ii. APPSKEY
