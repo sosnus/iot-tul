@@ -4,7 +4,7 @@
 ### Asemble Arduino Board
 In our project we use additional board provided by TME. It allows us to display data on the LCD and makes connecting sensors more confortable. If you use it also, remember to put all jumpers like on the picture.
 
-![alt text](https://github.com/jakuw/ttn-tul-1/blob/master/docs/Node/TME_board.jpg "Logo Title Text 1")
+![alt text](https://github.com/jakuw/ttn-tul-1/blob/master/docs/Node/TME_board.png "Logo Title Text 1")
 ### Download Arduino IDE
 In our project we use 1.8.19.0 version. 
 
@@ -17,7 +17,9 @@ You can find the project in the menu File/Examples/01.Basics/Blink or go through
 ### Install the LMIC-Arduino library and others (e.g. for LCD hd44780)
 Go to Sketch/Include Library\Manage Libraries... and search for "LMIC-Arduino". Install the newest version.
 
-"LMIC-Arduino" provides template with simple real time operating system and function, which sends data.  
+"LMIC-Arduino" provides template with simple real time operating system and function, which sends data.
+
+![alt text](https://github.com/jakuw/ttn-tul-1/blob/master/docs/Node/libraries.png "Logo Title Text 1")
 # thethingsnetwork.com portal
 ### Sign up
 ### Create application and add device
@@ -35,7 +37,39 @@ Decoder function converts array of asci signs to json format.
 
 Go to the website: https://console.thethingsnetwork.org/applications/ **YOUR NAME OF APPLICATION** /payload-formats 
 
-Decoder function is available on our the github repository: https://github.com/sosnus/ttn-tul-old/tree/master/src/ttn-code
+and add the folowing code:
+
+```javascript
+function Decoder(bytes, port) {
+  var decoded = {sensorID:"",sensorPassword:"",Value:""};
+  var flag=0;
+  for (i=0;i<8;i++)
+  {
+    if ((String.fromCharCode(bytes[i]) != "0") || flag==1)
+    {
+      decoded.sensorID += String.fromCharCode(bytes[i]);
+      flag=1;
+    }
+  }
+  for (i=0;i<8;i++)
+  {
+    if (String.fromCharCode(bytes[8+i]) != "0")
+    {
+      decoded.sensorPassword += String.fromCharCode(bytes[8+i]);
+    }
+  }
+  var flaga=0;
+  for (i=0;i<16;i++)
+  {
+    if ((String.fromCharCode(bytes[16+i]) != "0") | (flaga === 1))
+    {
+      decoded.Value += String.fromCharCode(bytes[16+i]);
+      flaga=1;
+    }
+  }
+  return decoded;
+}
+```
 
 ## Add HTTP integration
 
@@ -63,7 +97,9 @@ You can find "add new tab" on the drop-down list like on the picture.
  		i. NWKSKEY
 		ii. APPSKEY
 		iii. DEVADDR
-Take data from https://console.thethingsnetwork.org/applications/ **YOUR NAME OF APPLICATION** /devices/ **YOUR DEVICE**		
+Take data from https://console.thethingsnetwork.org/applications/ **YOUR NAME OF APPLICATION** /devices/ **YOUR DEVICE**
+
+![alt text](https://github.com/jakuw/ttn-tul-1/blob/master/docs/Node/data1.png "Logo Title Text 1")
 		
 ## Replace following sensor data in "send_functions":
   		i. SensorId
