@@ -6,7 +6,7 @@ In our project we use additional board provided by TME. It allows us to display 
 
 ![alt text](https://github.com/jakuw/ttn-tul-1/blob/master/docs/Node/TME_board.jpg "Logo Title Text 1")
 ### Download Arduino IDE
-In our project we used 1.8.19.0 version. 
+In our project we use 1.8.19.0 version. 
 
 Link to the software is available on the website: https://www.arduino.cc/en/Main/Software. 
 ### Test the Arduino Board 
@@ -16,14 +16,25 @@ You can find the project in the menu File/Examples/01.Basics/Blink or go through
 
 ### Install the LMIC-Arduino library and others (e.g. for LCD hd44780)
 Go to Sketch/Include Library\Manage Libraries... and search for "LMIC-Arduino". Install the newest version.
+
+"LMIC-Arduino" provides template with simple real time operating system and function, which sends data.  
 # thethingsnetwork.com portal
 ### Sign up
 ### Create application and add device
 # Get date to PŁ "LoraStore" portal
 Ask administrator for them.
 ## Change Activation Method to ABP
-## Add decoder function here https://console.thethingsnetwork.org/applications/ YOUR NAME OF APPLICATION /payload-formats 
-Decoder function is available on our the github.
+
+Example setting of the device shoud be as on the picture.
+
+![alt text](https://github.com/jakuw/ttn-tul-1/blob/master/docs/Node/device_settings.png "Logo Title Text 1")
+
+## Add decoder function
+
+Go to the website: https://console.thethingsnetwork.org/applications/ YOUR NAME OF APPLICATION /payload-formats 
+
+Decoder function is available on our the github repository: https://github.com/sosnus/ttn-tul-old/tree/master/src/ttn-code
+
 ## Add HTTP integration here https://console.thethingsnetwork.org/applications/ YOUR NAME OF APPLICATION /integrations
 ccess Key: default key
 URL: https://ttn-parser-cs.azurewebsites.net/api/ttn-11-01-2019?code=A4HPfv9KqjDE2StqdZPc01j0eaZ0hJhDSqEy6QpTJyBYHy3jLCGyhg==
