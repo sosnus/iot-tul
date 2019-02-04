@@ -1,12 +1,19 @@
-# manual <Name>
-## ttn-tul-node-v1 manual
+# Manual ttn-tul-node-v1
 
 ## Arduino configuration
+### Asemble Arduino Board
+In our project we use additional board provided by TME. It allows us to display data on the LCD and makes connecting sensors more confortable. If you use it also, remember to put all jumpers like on the picture.
+
+![alt text](https://github.com/jakuw/ttn-tul-1/blob/master/docs/Node/TME_board.jpg "Logo Title Text 1")
 ### Download Arduino IDE
-Link to the software is available on the website: https://www.arduino.cc/en/Main/Software.
+In our project we used 1.8.19.0 version. 
+
+Link to the software is available on the website: https://www.arduino.cc/en/Main/Software. 
 ### Test the Arduino Board 
-he easiest way to test the Arduino board is to load the "Blink" example.
+The easiest way to test the Arduino board is to load the "Blink" example.
+
 You can find the project in the menu File/Examples/01.Basics/Blink or go throught tutorial: https://www.arduino.cc/en/Tutorial/Blink.
+
 ### Install the LMIC-Arduino library and others (e.g. for LCD hd44780)
 Go to Sketch/Include Library\Manage Libraries... and search for "LMIC-Arduino". Install the newest version.
 # thethingsnetwork.com portal
