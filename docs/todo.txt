@@ -1,2 +1,0 @@
-* ### [Node instructions](./Node/manual.md)  (for Arduino shield ttn-tul-node-v1)
-* ### [LoRaStore Traffic Monitor](https://lora-websocket.azurewebsites.net/) [Github](https://lora-websocket.azurewebsites.net/)
