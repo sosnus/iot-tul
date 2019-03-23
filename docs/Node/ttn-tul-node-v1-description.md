@@ -1,18 +1,14 @@
 # pcb <Name>
 ## ttn-tul-node-v1 pcb
+ttn-tul-node-v1 to pierwsza płytka zaprojektowana przez zespół IOT-TUL. Głównym celem modułu jest zapewnienie komunikacji mikroprocesora z resztą infrastruktury LoRa. Płytka jest kompatybila ze wszystkimi modułami o pinach zgodnych z Arduino Uno lub Arduino Nano. ttn-tul-node-v1 posiada wyprowadzenia pozwalające na szybkie podłczenie modułów używających najpopularniejszych interfejsów, takich jak: i2c, spi, uart, 1-wire.
+
+Autor schematu oraz pcb: Rafał Dolny
 
 ### 3D RENDER
-![alt text][3]
-[3]: https://raw.githubusercontent.com/sosnus/iot-tul/master/docs/img/pcb/3.png "3d render"
-
 ![3D render](./img/3.png)
-![3D render](img/3.png)
-
 
 ### PCB TOP
-![alt text][1]
-[1]: https://raw.githubusercontent.com/sosnus/iot-tul/master/docs/img/pcb/1.png "pcb top"
+![pcb top](./img/1.png)
 
 ### PCB BOTTOM 
-![alt text][2]
-[2]: https://raw.githubusercontent.com/sosnus/iot-tul/master/docs/img/pcb/2.png "pcb bottom"
+![pcb bottom](./img/2.png)
