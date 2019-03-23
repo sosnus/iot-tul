@@ -3,7 +3,7 @@
 Documentation for LoRaStore Backend
 
 # Database schematic
-![Logo](img/5.png)
+![Logo](./img/5.png)
 
 Browse DB Schema at dbdiagram.io: [LoRaStore Diagram](https://dbdiagram.io/d/5c3eb118dbc87000142e6d5f)<br>
 
