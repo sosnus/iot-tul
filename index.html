@@ -1,0 +1,154 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <title>TTN TUL</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">TTN-TUL</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <main role="main">
+
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron">
+            <div class="container">
+                <h2 class="display-3">Strona projektu <br>"Gateway The Things Network Łódź na terenie Politechniki
+                    Łódzkiej"</h2>
+                <p>Celem projektu jest wdrożenie w Łodzi sieci The Things Network (TTN). Dzięki temu zainteresowane
+                    osoby będą mogły konstruować i uruchamiać urządzenia Internetu Rzeczy (Internet of Things – IoT), a
+                    następnie przyłączać je do Internetu za pomocą komunikacji dalekiego zasięgu LoRaWAN. Sieć TTN jest
+                    interesującą alternatywą zarówno dla modułów do bliskiej komunikacji, jak i dla urządzeń IoT które
+                    opierają swoją komunikację na sieci GSM. Na tle tych technologii The Things Network wyróżnia się
+                    energooszczędnością, bezawaryjnym działaniem oraz jest bardziej ekonomiczne podczas dłuższego
+                    użytkowania. Aktualnie TTN jest sukcesywnie wdrażana w różnych miastach świata, zwłaszcza tych
+                    które dynamicznie rozwijają się w kierunku Smart Cities.</p>
+                <p id="moreMain2"><a class="btn btn-primary btn-lg" role="button" onclick="changeText(this.value);">Więcej
+                        informacji...</a></p>
+                <p id="moreMain"></p>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Dashboard</h2>
+                    <p>Browse Your data from sensors</p>
+                    <p><a class="btn btn-secondary" href="https://sosnus.github.io/iot-tul/Charts.html" role="button">Go</a></p>
+                </div>
+
+                <div class="col-md-4">
+                    <h2>Node instructions</h2>
+                    <p>How to prepare and connect ttn-tul-node-v1?</p>
+                    <p><a class="btn btn-secondary" href="https://github.com/sosnus/ttn-tul/blob/master/instructions/plan_en.md"
+                            role="button">Go</a></p>
+                </div>
+
+                <div class="col-md-4">
+                    <h2>Hackathon 12.01.2019</h2>
+                    <p>Browse Your data from sensors</p>
+                    <p><a class="btn btn-secondary" href="https://sosnus.github.io/ttn-tul/online/iothackathon.html"
+                            role="button">Go</a></p>
+                </div>
+                <hr>
+
+                <div class="col-md-4">
+                    <h2>Jak zaprogramować i skonfigurować Node</h2>
+                    <p>Instrukcja</p>
+                    <p><a class="btn btn-secondary" href="https://www.mobilefish.com/developer/lorawan/lorawan_quickguide_build_lora_node_rfm95_arduino_uno.html"
+                            role="button">Przejdź</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Jak skonfigurować Gateway</h2>
+                    <p>Instrukcja</p>
+                    <p><a class="btn btn-secondary" href="https://github.com/ttn-zh/ic880a-gateway/wiki" role="button">Przejdź</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Wiki</h2>
+                    <p>Strona w budowie </p>
+                    <p><a class="btn btn-secondary" href="https://github.com/sosnus/ttn-tul/wiki" role="button">Przejdź</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>TTN Lodz</h2>
+                    <p>Strona łódzkiej społecznosci</p>
+                    <p><a class="btn btn-secondary" href="https://www.thethingsnetwork.org/community/lodz/" role="button">Przejdź</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Emulator czujnika</h2>
+                    <p>Skrypt python</p>
+                    <p><a class="btn btn-secondary" href="https://github.com/sosnus/ttn-tul/blob/master/src/scripts/node_emulator.py"
+                            role="button">Przejdź</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Podgląd danych</h2>
+                    <p>Przykładowa strona prezentująca dane z czujników</p>
+                    <p><a class="btn btn-secondary" href="https://sosnus.github.io/ttn-tul/dashboard" role="button">Przejdź</a></p>
+                </div>
+            </div>
+
+
+        </div>
+
+        </div> <!-- /container -->
+
+    </main>
+
+    <footer class="container">
+        <p>© ttn-tul 2017-2018</p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script>
+
+        function changeText(value) {
+            document.getElementById('moreMain2').innerHTML = "Projekt TTN posiada szeroki zakres beneficjentów. Począwszy od członków Kół Naukowych (przede wszystkim SkaNeR oraz .NET WEEIA PŁ), poprzez studentów piszących prace inżynierskie/magisterskie/przejściowe/projekty kompetencyjne aż po hobbystów pasjonujących się elektroniką i telekomunikacją. Większość danych zebranych przez urządzenia IoT po opracowaniu będzie ogólnodostępna dla wszystkich mieszkańców Łodzi, udostępniając im informacje w czasie rzeczywistym na przykład o stanie czystości powietrza lub wartości nasłonecznienia. Dodatkowo projekt ten idealnie pasuje do strategii Miasta Łodzi w zakresie rozwoju nowoczesnych technologii Internetu Rzeczy (np. Smart City). Politechnika Łódzka ma szansę stać się jedną z najbardziej innowacyjnych uczelni w Polsce pod kątem badania i wykorzystywania w praktyce komunikacji bezprzewodowej o dużym zasięgu. Dzięki temu przedsięwzięciu uczestnicy projektu (oraz inni zainteresowani rozwojem sieci) będą mieli unikalną okazję przygotowania, zrealizowania oraz utrzymywania systemu teleinformatycznego, co jest głównym walorem dydaktycznym przedsięwzięcia.Proces wdrażania projektu można podzielić na cztery fazy: Faza I - zdobywanie niezbędnej elektroniki do uruchomienia projektu. Faza II - instalacja i konfiguracja sieci. Faza III – zaprojektowanie, zaprogramowanie, uruchomienie i podłączanie węzłów z czujnikami (node) do sieci TTN Faza IV – zbieranie danych z infrastruktury IoT, a następnie przetwarzanie, prezentowanie i wykorzystywanie zdobytych informacji. Gdy już uda się uruchomić bramę TTN oraz pierwsze testowe czujniki, Koło Naukowe SKaNeR oraz Grupa .NET WEEIA przeprowadzi serię otwartych szkoleń dla studentów PŁ oaz hobbystów. Szkolenia składać się będą z części teoretycznej i praktycznej. Podczas części teoretycznej omawiane będą zasady funkcjonowania sieci TTN oraz jej przykładowe zastosowania. Cześć praktyczna polegać będzie na programowaniu i konfiguracji węzłów (node) oraz łączenia ich z TTN Gateway. Działająca sieć TTN ma również potencjał dydaktyczny jako platforma w oparciu o którą można prowadzić prace naukowo-badawcze mające na celu przede wszystkim projektowanie i testowanie węzłów cechujących się energooszczędnością lub dużym zasięgiem działania. Sieć postawiona na terenie uczelni będzie posiadać również walory promocyjne, gdyż może stać się wzorcowym przykładem topologii sieci LoRaWAN, ukazując równolegle kilka zastosowań TTN w praktyce za pomocą specjalnie przygotowanych i wyeksponowanych czujników przykładowych. Dodatkowo uczestnicy projektu zobowiązują się do opracowywania i publikowania w języku Polskim oraz Angielskim artykułów i aktualności dotyczących projektu, oraz promowania portali publikujących dane pobrane z czujników podłączonych do Internetu za pomocą TTN Łódź. Szczególnie istotne będzie prezentowanie przykładowych danych z czujników w czasie rzeczywistym na telewizorach w budynku WEEIA lub CTI. - Źródło tekstu: Preliminarz projektu: Gateway The Things Network Łódź na terenie Politechniki Łódzkiej";
+        }
+    </script>
+</body>
+
+</html>
