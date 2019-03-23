@@ -1,7 +1,6 @@
 ﻿# TTN-TUL
 
-![alt text][3]
-[3]: https://raw.githubusercontent.com/sosnus/iot-tul-dashboard/master/docs/img/logo-ttn-tul.png "3d render"
+![Logo](img/logo.png)
 
 # About project
 
@@ -9,7 +8,7 @@
 
 # Important elements of solution
 
-* #### [DOCUMENTATION](https://ttn-tul.readthedocs.io/en/latest/) [  Github](https://github.com/sosnus/ttn-tul) 
+* #### [DOCUMENTATION](https://iot-tul.readthedocs.io/en/latest/) [  Github](https://github.com/sosnus/iot-tul) 
 * #### [LoRaStore Dashboard](https://sosnus.github.io/iot-tul/Charts.html) [Github](https://github.com/sosnus/iot-tul)
 
 # Authors

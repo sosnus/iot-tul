@@ -3,9 +3,8 @@
 Documentation for LoRaStore Backend
 
 # Database schematic
+![Logo](img/5.png)
 
-![alt text][5]
-[5]: https://raw.githubusercontent.com/sosnus/iot-tul-dashboard/master/docs/img/admin/5.PNG "Database schematic"
 Browse DB Schema at dbdiagram.io: [LoRaStore Diagram](https://dbdiagram.io/d/5c3eb118dbc87000142e6d5f)<br>
 
 ```sql
@@ -77,8 +76,8 @@ Example`HTTP GET`: `https://lorastore20181206101456.azurewebsites.net/api/Measur
 Test: [Get list of measurements from SensorID=36](https://lorastore20181206101456.azurewebsites.net/api/Measurements?id=36)<br>
 
 #### an example of an answer to the query
-![alt text][4]
-[4]: https://raw.githubusercontent.com/sosnus/iot-tul-dashboard/master/docs/img/admin/4.PNG "an example of an answer to the query"
+![Logo](img/4.png)
+
 
 ## Sensors management
 
@@ -86,18 +85,16 @@ Test: [Get list of measurements from SensorID=36](https://lorastore2018120610145
 
 #### Login
 
-![alt text][1]
-[1]: https://raw.githubusercontent.com/sosnus/iot-tul-dashboard/master/docs/img/admin/1.PNG "Login"
+![Logo](img/1.png)
 
 #### Sensors management
 
-![alt text][2]
-[2]: https://raw.githubusercontent.com/sosnus/iot-tul-dashboard/master/docs/img/admin/2.PNG "Sensors management"
+![Logo](img/2.png)
+
 
 #### Sensors editor
 
-![alt text][3]
-[3]: https://raw.githubusercontent.com/sosnus/iot-tul-dashboard/master/docs/img/admin/3.PNG "Sensors editor"
+![Logo](img/3.png)
 
 # Deploy LoRaStore at Your server
 
