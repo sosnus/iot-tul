@@ -10,9 +10,8 @@
 # Important elements of solution
 
 * #### [DOCUMENTATION](https://iot-tul.readthedocs.io/en/latest/) [  Github](https://github.com/sosnus/iot-tul) 
-* #### [LoRaStore Dashboard](https://sosnus.github.io/iot-tul/Charts.html) [Github](https://github.com/sosnus/iot-tul)
-* #### [TUL-BIKE]([https://iot-tul.readthedocs.io/en/latest/](https://iot-tul.readthedocs.io/en/latest/Projects/TUL-BIKE/)) [  Github]
-  * 
+* #### [DASHBOARD LoRaStore Dashboard](https://sosnus.github.io/iot-tul/Charts.html) [Github](https://github.com/sosnus/iot-tul)
+* #### [TUL-BIKE project]([https://iot-tul.readthedocs.io/en/latest/](https://iot-tul.readthedocs.io/en/latest/Projects/TUL-BIKE/)) [  Github]
 
 # Authors
 
@@ -35,7 +34,6 @@
 * Natalia Walczak
 * Piotr Ładoński
 * Maciej Bednarek
-
 
 ## Node developers
 
