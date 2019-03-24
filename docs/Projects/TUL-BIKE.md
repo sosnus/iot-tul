@@ -4,7 +4,7 @@
 
 # About project
 
-**TTN-TUL** tutaj krotki opis projektu
+**Projekt IOT-BIKE** wykorzystuje rozwiązania LoRaWAN do zbierania danych z GPS przymocowanego do roweru. Pozwala to na badanie położenia i efektywne odszukiwanie zagubionych obiektów przy niskim zapotrzebowaniu energetycznym. Pierwsza iteracja projektu skupia się głównie na rowerach, lecz uzyskana w ten sposób wiedza będzie wstępem do szerszego zastosowania technologi LoRa w przemyśle, smart-city, rolnictwie i rozrywce.
 
 
 # Authors
@@ -16,7 +16,7 @@
 
 ## Team
 
-* Stanisław Puławski (leader)
+* Stanisław Puławski
 * Natalia Walczak
 * Piotr Ładoński
 * Maciej Bednarek
