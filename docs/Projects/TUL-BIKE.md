@@ -4,7 +4,7 @@
 
 # About project
 
-**Projekt TUL-BIKE** wykorzystuje rozwiązania LoRaWAN do zbierania danych z GPS przymocowanego do roweru. Pozwala to na badanie położenia i efektywne odszukiwanie zagubionych obiektów. Zastosowanie technologii LoRa pozwala zminimalizować zużycie energii oraz zapewnić bezprzewodową komunikację dalekiego zasięgu bez użycia WiFi oraz GSM. Pierwsza iteracja projektu skupia się głównie na lokalizacji rowerów, lecz uzyskana w ten sposób wiedza będzie wstępem do szerszego zastosowania technologi LoRa do zbierania danych z czujników w przemyśle, smart-city, rolnictwie i rozrywce.
+**Projekt TUL-BIKE** wykorzystuje technologię komunikacji LoRa (Long Range) do przekazywania danych z GPS przymocowanego do roweru. Pozwala to na badanie położenia i efektywne odszukiwanie zagubionych obiektów. Zastosowanie LoRa pozwala zminimalizować zużycie energii oraz zapewnić bezprzewodową komunikację bez użycia WiFi oraz GSM. Realizacja projektu TUL-BIKE będzie wstępem do szerszego zastosowania technologi LoRa do zbierania danych z czujników w przemyśle, smart-city, rolnictwie i rozrywce.
 
 
 
