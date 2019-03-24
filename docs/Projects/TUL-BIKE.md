@@ -4,7 +4,7 @@
 
 # About project
 
-**Projekt IOT-BIKE** wykorzystuje rozwiązania LoRaWAN do zbierania danych z GPS przymocowanego do roweru. Pozwala to na badanie położenia i efektywne odszukiwanie zagubionych obiektów przy niskim zapotrzebowaniu energetycznym. Pierwsza iteracja projektu skupia się głównie na rowerach, lecz uzyskana w ten sposób wiedza będzie wstępem do szerszego zastosowania technologi LoRa w przemyśle, smart-city, rolnictwie i rozrywce.
+**Projekt TUL-BIKE** wykorzystuje rozwiązania LoRaWAN do zbierania danych z GPS przymocowanego do roweru. Pozwala to na badanie położenia i efektywne odszukiwanie zagubionych obiektów przy niskim zapotrzebowaniu energetycznym. Pierwsza iteracja projektu skupia się głównie na lokalizacji rowerów, lecz uzyskana w ten sposób wiedza będzie wstępem do szerszego zastosowania technologi LoRa do zbierania danych w przemyśle, smart-city, rolnictwie i rozrywce.
 
 
 # Authors
