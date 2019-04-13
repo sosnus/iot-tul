@@ -7,17 +7,15 @@
 
 **Projekt TUL-Vision** 
 
+## Authors
 
+### Mentors
 
-# Authors
-
-## Mentors
 * Dr hab. inż. Grzegorz Granosik, prof. PŁ
 
-## Team
+### Team
+
 * Stanisław Puławski
 * Natalia Walczak
 * Piotr Ładoński
 * Maciej Bednarek
-
-
