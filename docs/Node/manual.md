@@ -4,32 +4,41 @@
 ### Asemble Arduino Board
 In our project we use additional board provided by TME. It allows us to display data on the LCD and makes connecting sensors more confortable. If you use it also, remember to put all jumpers like on the picture.
 
-![alt text](https://github.com/sosnus/ttn-tul/blob/master/docs/Node/TME_board.png "Logo Title Text 1")
+![alt text](./TME_board.png "Logo Title Text 1")
+
 ### Download Arduino IDE
+
 In our project we use 1.8.19.0 version. 
 
 Link to the software is available on the website: https://www.arduino.cc/en/Main/Software. 
+
 ### Test the Arduino Board 
+
 The easiest way to test the Arduino board is to load the "Blink" example.
 
 You can find the project in the menu File/Examples/01.Basics/Blink or go throught tutorial: https://www.arduino.cc/en/Tutorial/Blink.
 
 ### Install the LMIC-Arduino library and others (e.g. for LCD hd44780)
+
 Go to Sketch/Include Library\Manage Libraries... and search for "LMIC-Arduino". Install the newest version.
 
 "LMIC-Arduino" provides template with simple real time operating system and function, which sends data.
 
-![alt text](https://github.com/sosnus/ttn-tul/blob/master/docs/Node/libraries.png "Logo Title Text 1")
+![alt text](./libraries.png "Logo Title Text 1")
+
 # thethingsnetwork.com portal
+
 ### Sign up
+
 ### Create application and add device
+
 # Get date to PŁ "LoraStore" portal
 Ask administrator for them.
 ## Change Activation Method to ABP
 
 Example of settings of the device is presented the picture.
 
-![alt text](https://github.com/sosnus/ttn-tul/blob/master/docs/Node/device_settings.png "Logo Title Text 1")
+![alt text](./device_settings.png "Logo Title Text 1")
 
 ## Add decoder function
 
@@ -94,7 +103,7 @@ Project "arduino ttn" contains three files:
 
 You can find "add new tab" on the drop-down list like on the picture.
 
-![alt text](https://github.com/sosnus/ttn-tul/blob/master/docs/Node/list_new_tab.png "Logo Title Text 1")
+![alt text](./list_new_tab.png "Logo Title Text 1")
 
 ## Replace following network data in "send_functions":
  		i. NWKSKEY
@@ -102,7 +111,7 @@ You can find "add new tab" on the drop-down list like on the picture.
 		iii. DEVADDR
 Take data from https://console.thethingsnetwork.org/applications/ **YOUR NAME OF APPLICATION** /devices/ **YOUR DEVICE**
 
-![alt text](https://github.com/sosnus/ttn-tul/blob/master/docs/Node/data1.png "Logo Title Text 1")
+![alt text](./data1.png "Logo Title Text 1")
 		
 ## Replace following sensor data in "send_functions":
   		i. SensorId
