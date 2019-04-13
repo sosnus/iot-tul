@@ -12,3 +12,6 @@ Autor schematu oraz pcb: Rafał Dolny
 
 ### PCB BOTTOM 
 ![pcb bottom](./img/2.png)
+
+### Instance of temporary iot-tul workshop module 
+![pcb bottom](./img/4.jpg)
