@@ -1,6 +1,7 @@
-﻿# TUL-BIKE
+﻿# TUL-Vision
 
-//![Logo](img/logo.png)
+![Logo](img/logo-tul-vision.png)
+
 --- In progress ---
 # About project
 
@@ -18,5 +19,5 @@
 * Natalia Walczak
 * Piotr Ładoński
 * Maciej Bednarek
-*
+
 
