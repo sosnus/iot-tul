@@ -1,5 +1,6 @@
-print(">>> SOSNUS SCRIPT ( ttnGwLodzStatus.py ): TTN GW in Lodz, owners and last seen <<<")
-print("Create: 16:14 23-Jul-19 last modif: 16:14 23-Jul-19")
+print("file: ttnGwLodzStatus.py Python 3.6.8")
+print("Create: 16:14 23-Jul-19 last modif: 16:45 23-Jul-19, Author: Stanisław Puławski")
+print(" Description: Script shows TTN GW in Lodz; owners and last seen ")
 import requests
 import json
 r =  requests.get('https://www.thethingsnetwork.org/gateway-data/location?latitude=51.76873234&longitude=19.4569911&distance=50000')
