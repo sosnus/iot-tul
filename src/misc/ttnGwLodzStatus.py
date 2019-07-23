@@ -19,4 +19,6 @@ for x in r:
   delta = time2 - time
   print('     LAST SEEN DELTA:',delta)
   
-  # try code: https://repl.it/repls/SeparateScientificRoutine
+  # try this code online: https://repl.it/repls/SeparateScientificRoutine
+  # repo: https://github.com/sosnus/iot-tul/blob/master/src/misc/ttnGwLodzStatus.py
+  # REPL: https://repl.it/repls/SeparateScientificRoutine
