@@ -1,6 +1,5 @@
-print("file: ttnGwLodzStatus.py Python 3.6.8")
-print("Create: 16:14 23-Jul-19 last modif: 16:45 23-Jul-19, Author: Stanisław Puławski")
-print(" Description: Script shows TTN GW in Lodz; owners and last seen ")
+print(">>> SOSNUS SCRIPT ( ttnGwLodzStatus.py ): TTN GW in Lodz, owners and last seen <<<")
+print("Create: 16:14 23-Jul-19 last modif: 18:35 23-Jul-19")
 import requests
 import json
 r =  requests.get('https://www.thethingsnetwork.org/gateway-data/location?latitude=51.76873234&longitude=19.4569911&distance=50000')
@@ -19,6 +18,22 @@ for x in r:
   time2 = datetime.now()
   delta = time2 - time
   print('     LAST SEEN DELTA:',delta)
+
+
+def ttnCheckCnt(gwId):
+  import requests
+  import json
+  # gwId = 'eui-b827ebfffe3b5b2e'
+  addr = 'http://noc.thethingsnetwork.org:8085/api/v2/gateways/'
+  print('Check msg cnt for GwId:',gwId, '...')
+  addr = addr + gwId
+  r =  requests.get(addr)
+  r = r.json()
+  print('UPLINK=', r['uplink'])
+  #print(r)
+
+print("---------")
+ttnCheckCnt('eui-b827ebfffe3b5b2e')
   
   # try this code online: https://repl.it/repls/SeparateScientificRoutine
   # repo: https://github.com/sosnus/iot-tul/blob/master/src/misc/ttnGwLodzStatus.py
