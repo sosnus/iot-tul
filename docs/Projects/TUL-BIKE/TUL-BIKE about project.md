@@ -1,4 +1,4 @@
-﻿# TUL-BIKE
+# TUL-BIKE
 
 ![Logo](img/logo-tul-bike.png)
 
