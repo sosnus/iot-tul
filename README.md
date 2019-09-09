@@ -6,4 +6,6 @@ content:
 * docs: readthedocs files
 * src: software
 * resources: foto and documents
-old name: iot-dashboard
+
+
+repo old name: iot-dashboard
