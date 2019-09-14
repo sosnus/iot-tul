@@ -1,7 +1,10 @@
 # About files and folders
+
 This temporary document can help to understand directories
 
 ## Data tree
+
+```bash
 data
 ├── aboutcam
 │   ├── about_cam0.json
@@ -19,7 +22,7 @@ data
 │   └── raw_cam0_1568466804.jpg
 └── raw_new
     └── raw_cam0_1568467422.jpg
-
+```
 
 ## Folders descriptions
 
