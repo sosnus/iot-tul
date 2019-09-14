@@ -27,13 +27,20 @@ data
 ## Folders descriptions
 
 `data` - main folder with data
+
+
 `data/aboutcam` - contains all cameras metadata (as json files)
 
 `data/analyzedJson_archive` - contains json files just uploaded to online database
+
 `data/analyzedJson_new` - contains json files which are ready to upload to DB
 
+
 `data/analyzedPhoto_archive` - contains photos just uploaded to online database
+
 `data/analyzedPhoto_new` - contains json photos which are ready to upload to DB
 
+
 `data/raw_archive` - contains photos just already analyzed by OpenCV
+
 `data/raw_new` - contains photos just waiting for analysis by OpenCV
