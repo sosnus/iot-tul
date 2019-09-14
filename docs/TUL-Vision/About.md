@@ -9,7 +9,7 @@
 
 ## Authors
 
-### Mentors
+### Mentor
 
 * Dr hab. inż. Grzegorz Granosik, prof. PŁ
 
@@ -18,7 +18,7 @@
 * Stanisław Puławski
 * Natalia Walczak
 * Piotr Ładoński
-* Maciej Bednarek
+* Joanna Piwko
 
 ## Documents
 
