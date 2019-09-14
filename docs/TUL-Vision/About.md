@@ -1,4 +1,4 @@
-﻿# TUL-Vision
+# TUL-Vision
 
 ![Logo](img/logo-tul-vision.png)
 
