@@ -1,6 +1,6 @@
 # TUL-Vision
 
-![Logo](img/logo-tul-vision.png)
+![Logo](files/logo-tul-vision.png)
 
 --- In progress ---
 # About project
