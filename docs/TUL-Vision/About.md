@@ -2,7 +2,6 @@
 
 ![Logo](files/logo-tul-vision.png)
 
---- In progress ---
 # About project
 
 **Projekt TUL-Vision** 
@@ -29,4 +28,8 @@
 ### 2nd STAGE
 
 [PDF presentation with project roadmap and ideas](files/2nd-STAGE-PDF-TUL-Vision.pdf)
+
+### 3rd STAGE
+
+[Project page](Idea.md)
 

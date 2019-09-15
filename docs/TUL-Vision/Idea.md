@@ -2,7 +2,6 @@
 
 `TUL-Vision` 
 
-
 ## What your project does and who your project is for?
 
 //TODO: z prezentacji
@@ -10,7 +9,7 @@
 ## What technologies you have used?
 
 * CCTV
-* ADVANTECH CP for edge computing
+* ADVANTECH PC for edge computing
 * Python
 * OpenCV
 * MongoDB
@@ -25,7 +24,6 @@
 * Data filtration to offload the link between edge computer and cloud
 * Send picture and text description to cloud
 * Send piece of archived stream on demmand (in the future)
-
 
 ### What we do in the cloud computing?
 
