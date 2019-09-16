@@ -33,3 +33,5 @@
 
 [Project page](Idea.md)
 
+[PDF presentation with project roadmap and progress](files/3rd-STAGE-PDF-TUL-Vision.pdf)
+
