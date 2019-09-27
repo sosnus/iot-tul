@@ -2,7 +2,7 @@
 Customize snippet ttn-abp arduino sample project
 
 
-Change 3 variables:
+## Change 3 variables:
 ```
 // LoRaWAN NwkSKey, network session key
 // This is the default Semtech key, which is used by the early prototype TTN
@@ -18,14 +18,14 @@ static const u1_t PROGMEM APPSKEY[16] = { 0x2B, 0x7E, 0x15, 0x16, 0x28, 0xAE, 0x
 static const u4_t DEVADDR = 0x03FF0001 ; // <-- Change this address for every node!
 ```
 
-Eventually modify transmit interval from 60 to 10 (seconds)
+## Eventually modify transmit interval from 60 to 10 (seconds)
 ```
 // Schedule TX every this many seconds (might become longer due to duty
 // cycle limitations).
 const unsigned TX_INTERVAL = 60;
 ```
 
-Pin mapping
+## Pin mapping
 Before:
 ```
 // Pin mapping
@@ -49,7 +49,7 @@ const lmic_pinmap lmic_pins = {
 ```
 
 
-And remember about data to send (MAX 51 bytes!)
+## And remember about data to send (MAX 51 bytes!)
 ```
 static uint8_t mydata[] = "Hello, world!";
 ```
