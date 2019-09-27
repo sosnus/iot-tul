@@ -11,9 +11,11 @@
 
 * tul-vision
 * tul-bike
+* LodzLove
 
 ## Future
 
+* ttn example code to arduino parser
 * rehab
 * iot room
 * iot-tul-ttn-watcher
