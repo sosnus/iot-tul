@@ -1,11 +1,11 @@
-﻿# IOT-TUL
-(previous name: TTN-TUL)
-
 ![Logo](img/logo.png)
 
 # About project
 
 **IOT-TUL** is an initiative of students from Technical University of Lodz (TUL) aimed at popularsing Internet of Things (IoT), LoRa and TheThingsNetwork (TTN) infrastructure. As part of our activity developed are many component projects focused on individual parts of IoT solutions, starting with design of electronic modules, through developing and implementing web applications used for processing and presentation of the data ending with development of IoT infrastructure in Łódź.
+
+
+(previous name: TTN-TUL)
 
 # Important elements of solution
 
