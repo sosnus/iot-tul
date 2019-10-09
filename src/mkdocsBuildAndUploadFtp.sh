@@ -1,5 +1,8 @@
 #!/bin/bash
 figlet B and U
+echo "remove ./site"
+rm -r ./site/*   
+rm -r ./site   
 echo "mkdocs build"
 mkdocs build
 echo "upload"
