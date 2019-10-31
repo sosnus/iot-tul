@@ -14,5 +14,6 @@ TODO:
 * add info about ttn-tul-node-v1
 
 iot-tul-node2
+<img src="https://img.shields.io/badge/tested-green" />
 
 
