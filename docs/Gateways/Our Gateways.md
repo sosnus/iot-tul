@@ -35,3 +35,8 @@ Administrators: <br>
 Administrators: <br>
 [Stanisław Puławski](https://www.thethingsnetwork.org/u/StaPulawski)<br>
 [ttn-tul Politechnika Łódzka](https://www.thethingsnetwork.org/u/ttn-tul-admin)
+
+
+
+
+[TTN Gateway FAQ](https://www.thethingsnetwork.org/forum/t/ttn-gateway-central-3/18962)
