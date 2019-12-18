@@ -17,3 +17,21 @@ Administrators: <br>
 Administrators: <br>
 [Stanisław Puławski](https://www.thethingsnetwork.org/u/StaPulawski)<br>
 [ttn-tul Politechnika Łódzka](https://www.thethingsnetwork.org/u/ttn-tul-admin)
+
+## Gateway #3
+#### Host: SKaNeR (indoor, mobile)
+#### TYPE: TTN Gateway
+*Gateway ID* `iot-tul-gw-01` <br>
+*Description* `(GREEN) TTN GW 01 - sponsored by TME.eu` <br>
+Administrators: <br>
+[Stanisław Puławski](https://www.thethingsnetwork.org/u/StaPulawski)<br>
+[ttn-tul Politechnika Łódzka](https://www.thethingsnetwork.org/u/ttn-tul-admin)
+
+## Gateway #4
+#### Host: SKaNeR (indoor, mobile)
+#### TYPE: TTN Gateway
+*Gateway ID* `iot-tul-gw-02` <br>
+*Description* `(RED) TTN GW 02 - sponsored by TME.eu` <br>
+Administrators: <br>
+[Stanisław Puławski](https://www.thethingsnetwork.org/u/StaPulawski)<br>
+[ttn-tul Politechnika Łódzka](https://www.thethingsnetwork.org/u/ttn-tul-admin)
