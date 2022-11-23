@@ -43,10 +43,10 @@
 
 ## Gateways administrators
 
+* Tymoteusz Adamczyk
 * Grzegorz Imioła
 * Rafał Baczyński
 * Michał Gronkiewicz
-* Tymoteusz Adamczyk
 
 ## Graphic designer
 
@@ -55,3 +55,6 @@
 ## Node Shield tt-tul-node-v1 designer
 
 * Rafał Dolny
+
+
+
